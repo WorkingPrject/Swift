@@ -7,6 +7,7 @@
 
 import Foundation
 
+ // MARK:- FOR LOOPS
 let names = ["Naveen","MacBook","apple","xcode","swift","chrome"]
 for name in names {
 //    print("Hello \(name)!")
@@ -36,5 +37,27 @@ for fruit in fruitSet {
 }
 
 for contact in contacts {
-    print("\(contact.key) -> \(contact.value)")
+//    print("\(contact.key) -> \(contact.value)")
+}
+
+for letter in word {
+//    print(letter)
+}
+
+for number in halfOpenRange {
+//    print(number)
+}
+
+for number in closedRange {
+//    print(number)
+}
+
+ // MARK:- WHILE LOOP  (Infinite Loops)
+let somethingIsTrue = false
+while !somethingIsTrue {
+    //print("hello")          //Infinite Loops
+}
+
+while 3 > 2 {
+    print("waiting....")
 }
